@@ -9,7 +9,7 @@ Class - id,class_name,class_description
 
 Dormitories - id,dorm_name,capacity
 
-Subjects - id,subjects_name,description,
+Subjects - id,subjects_name,description,dept_id
 
 Fees - id,payment_date,fees_amount,amount_paid
 
