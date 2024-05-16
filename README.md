@@ -3,7 +3,7 @@ Department - id,dept_head,dept_name,office_location
 
 Staff - id,Dept_id,name,Phone number,Email,Date hired,Address,Gender
 
-Students - id,name,enrollment_date,grades_id,subject_name,dormitory_name,dorm_id
+Students - id,name,enrollment_date,subject_name,dormitory_name,dorm_id
 
 Class - id,class_name,class_description
 
