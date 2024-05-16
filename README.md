@@ -1,7 +1,7 @@
 # Sql-training
 Department - id,dept_head,dept_name,office_location
 
-Staff - id,Dept_id,name,Phone number,Email,Date hired,Address,Gender
+Staff - id,dept_id,name,phone_number,email,date_hired,address,gender
 
 Student - id,name,enrollment_date,subject_name,dormitory_name,dorm_id
 
