@@ -1,0 +1,48 @@
+departments -id,dept_name,office_location
+
+staff -id,dept_id,email,address,phone_number
+
+dormitories - id,dorm_name,capacity
+
+classes -id,capacity
+
+students -id,classes_id,dorm_id,activitiesparticipated_id,grades_id
+
+subjects - id,dept_id,students_id
+
+students_subjects -id,students_id,subjects_id
+
+exams - id,examstype
+
+grades -id,studentssubjects_id,exams_id,marks,grade
+
+fees -id,students_id,mode_paid,amount_paid,dorm_id
+
+parents -id,student_id,phonenumber,email,address
+
+timetables -id,classes_id,staff_id,starttime,endtime
+
+extra-curricular activities -id,staff_id,activityname,description
+
+librarybooks -id,books_name 
+
+books-borrowed -id, librarybooks_id,students_id
+
+students_furniture -id,students_id,furnituretype_id 
+
+activities_participated -id,students_id,extra-curriculuractivities_id
+
+suspensions -id,students_id,dorm_id
+
+expulsions - id,students_id,dorm_id
+
+attendance -id,students_id,present/absent 
+
+sanitorium - id,staff_id,students_id,medicationprescribed
+
+specialdiet_students - id,students_id
+
+furnituretype - id,dept_id
+
+
+
