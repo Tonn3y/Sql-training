@@ -1,1 +1,54 @@
+products - id,categoriesid,name,stockquantity,categorypricesid
+
+types - id,brandsid
+
+categoryprices - id,typeid,price
+
+employee - id,name,email,phonenumber,departmentid
+
+customers - id,fullname,phonenumber,email,customeraddressid
+
+customeraddress - id,addressline1,addressline2,city,county,country,zipcode
+
+categories - id,typesid,description
+
+brands - id,name,country
+
+orders - id,customersid,orderdate,shippingaddress,status,productsid
+
+receipts - id,categoriespriceid,amountpaid,datepaid 
+
+periodpaid - id,timepaid
+
+payments - id,mode,receiptid,customersid,productid,periodpaidid
+
+store - id,sublocation,buildinglocated,street
+
+deliveryoption - id,prefferedoption(customeraddressid,storeid)
+
+deliveries - id,deliveryoptionid,employeeid,deliveryfees
+
+countries - id,name
+
+suppliers - id,name,address,contactinformation
+
+productsuppliers - id,countryid,name,suppliersid
+
+shoppingcarts - id,ordersid
+
+reviews - id,productid,customerid,rating,comments,reviewdate
+
+returnrequests - id,productid,orderid,customerid,reason,requestdate,status
+
+notifications - id,customersid,message,notificatiodate
+
+referrals - id,customersid,referredcustomerid,referraldate,status
+
+browsinghistory - id,customersid,productsid,viewdate
+
+discounts - id,productsid,discountpercentage,description,enddate
+
+FAQ - id,questions,answers
+
+termsandcoditions - id,listoftermsandconditions
 
